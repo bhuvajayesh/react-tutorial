@@ -162,10 +162,10 @@ function App() {
       </div>
       <hr />
       <div className="navbarLink flex gap-[20px]">
-        <NavLink exact activeClassName="active" to="/">
+        <NavLink exact="true" activeClassName="active" to="/">
           About us
         </NavLink>
-        <NavLink exact activeClassName="active" to="/contact">
+        <NavLink exact="true" activeClassName="active" to="/contact">
           Contact us
         </NavLink>
       </div>
