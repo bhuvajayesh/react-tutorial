@@ -127,7 +127,7 @@ function App() {
   };
 
   const deleteItem = (id) => {
-    console.log("deleted");
+    // console.log("deleted");
     setItems((oldItems) => {
       return oldItems.filter((arrElem, index) => {
         return index !== id;
@@ -139,7 +139,7 @@ function App() {
   const [img, setImg] = useState("");
   const inputResult = (event) => {
     const data = event.target.value;
-    console.log(data);
+    // console.log(data);
     setImg(data);
   };
 
