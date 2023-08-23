@@ -252,6 +252,7 @@ function App() {
             padding: "6px 12px",
             borderRadius: "6px",
           }}
+          data-sm-link-text="Remove All"
         >
           Get time
         </button>
