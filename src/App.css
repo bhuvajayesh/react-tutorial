@@ -14,3 +14,20 @@ body {
 .active {
   color: purple;
 }
+
+.form-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.register-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 40px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 20px #939393;
+}

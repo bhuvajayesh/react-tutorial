@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Link to={"/signin"} style={{ color: "#fff" }}>
-        Back to signin
+        Back to Sign In
       </Link>
       <br />
       <br />

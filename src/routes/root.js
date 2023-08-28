@@ -5,6 +5,8 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Contact from "../pages/Contact";
 import SignIn from "../pages/SignIn";
 import Home from "../pages/Home";
+import NewPractice from "../pages/NewPractice";
+import Registration from "../pages/Registration";
 
 const Routing = () => {
   return (
@@ -15,6 +17,8 @@ const Routing = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/practice" element={<NewPractice />} />
+        <Route path="/registration" element={<Registration />} />
       </Routes>
     </BrowserRouter>
   );
